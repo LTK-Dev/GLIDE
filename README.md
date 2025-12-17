@@ -1,4 +1,17 @@
-# How to Run the Code
+# GLIDE: Graph-based Lateral Movement Detection with LLM-Enhanced Analysis
+
+[![Paper](https://img.shields.io/badge/Paper-Insider%20Threat%20Detection-blue.svg)](https://github.com/LTK-Dev/INT3220E_1)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
+
+**📄 Research Paper:** _Leveraging Graph-based Reasoning and Large Language Models for Insider Threat Detection_
+
+## Project Overview
+
+GLIDE (Graph-based Lateral movement Intrusion Detection and Evaluation) is a comprehensive framework for detecting lateral movement in enterprise networks using graph-based learning and LLM-enhanced analysis. The project combines advanced graph neural networks (GraphSAGE/Metapath2Vec) with ensemble methods and LLM reasoning to achieve accurate threat detection.
+
+## How to Run the Code
 
 This project was originally designed to run on Kaggle with T4 GPU. Below is a detailed guide to reproduce the entire pipeline.
 
