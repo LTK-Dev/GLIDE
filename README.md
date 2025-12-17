@@ -58,6 +58,30 @@ metapath2vec.ipynb
 - **Output**: [Word to Vec embeddings](https://www.kaggle.com/datasets/kietle277/wordtovec-benngoai/data)
 - **Purpose**: Learn node embeddings in the graph through metapath
 
+#### Alternative: GraphSAGE (Appendix)
+
+As an alternative to Metapath2Vec, you can use GraphSAGE for learning node embeddings:
+
+**Step 3a: GraphSAGE**
+
+```bash
+graphsage/graphsage.ipynb
+```
+
+- **Input**: Output from Step 2 - Graph Construction (`data/graph_construct/graph_data_<timestamp>/`)
+- **Output**: GraphSAGE node embeddings (saved in `graphsage/` directory)
+- **Purpose**: Learn node embeddings using GraphSAGE, a scalable graph neural network approach that samples and aggregates features from a node's local neighborhood
+
+**Step 3b: Autoencoder with GraphSAGE** (Optional enhancement)
+
+```bash
+graphsage/autoencoder_with_graphsage.ipynb
+```
+
+- **Input**: Output from Step 3a - GraphSAGE embeddings (`graphsage/` directory)
+- **Output**: Enhanced embeddings through autoencoder
+- **Purpose**: Further refine GraphSAGE embeddings using autoencoder for better feature representation
+
 ### Step 4: Hybrid Ensemble
 
 ```bash
@@ -71,6 +95,7 @@ hybrid_ensemble.ipynb
 - **Purpose**: Combine ensemble methods for lateral movement detection
 
 ### Step 5: ReAct Agent
+
 Go in the `react_agent` folder then follow the instruction there
 
 ## Important Notes
