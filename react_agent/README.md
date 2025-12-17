@@ -1,6 +1,6 @@
 # Re-run instruction
 ## Prerequisite
-Run the `autoencoder` notebook from Kaggle, then download it's output.
+Run the `hybrid_ensemble.ipynb` notebook from Kaggle, then download it's output.
 
 ## Running the experiment
 1. First, convert torch vectors (in string format) in to tuples by running `convert_to_tuple.ipynb`
